@@ -1,0 +1,35 @@
+<meta charset="utf-8">
+
+<title>Aula 05 - Construção de Formularios</title>
+<head>
+
+    <body>
+
+    <form action="https://pruu.herokuapp.com/dump/test">
+        <fieldset>
+
+        <input id="assunto" name ="assuntot" type="text">
+        <input id="senha" name="senha"  type="password">
+        <input id="idade" name="idade" type="number">
+        <input  id="email" name="email" type="email">
+        <input  id="dataNascimento" name="dataNascimento" type="date">
+        <input id="corFavorita" name="corFavorita"  type="color">
+        
+        <br>
+    <fieldset>
+        <input id="assunto" name="assunto" type="text">
+        <select name="motivo" id="motivo">
+            <option value="sem motivo">Não selecionado</option>
+            <option value="elogio">Elogio</option>
+            <option value="sugestao">Sugestão</option>
+        </select>
+
+        <input type="file" name="arquivo" id="arquivo">
+
+        <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+        <button type="submit">Enviar</button>
+    </fieldset>
+    </form>
+
+
+</body>

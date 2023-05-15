@@ -1,0 +1,13 @@
+div {
+
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+.div {
+    background:orange;
+
+}
+#div {
+    background: blue;
+}
